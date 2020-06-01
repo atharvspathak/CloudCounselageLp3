@@ -16,7 +16,5 @@ def leap(year:int)->bool:
         return False
 
 year=int(input())
-if year>=1900:
-	print(leap(year))
-else:
-	print("Invalid Input")
+print(leap(year))
+
